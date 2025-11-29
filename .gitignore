@@ -1,0 +1,27 @@
+# Generated files
+QA_generated.py
+*.exe
+dist/
+build/
+*.spec
+
+# Temporary files
+temp_delete.bat
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# API keys and secrets
+config.py
+.env
+*.key
