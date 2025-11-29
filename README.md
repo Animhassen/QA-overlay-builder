@@ -86,7 +86,6 @@ python QA_builder.py
 - **Time-Limited**: Scripts expire on specified date/time
 - **Self-Destruct**: Automatically deletes itself when expired
 - **Periodic Checks**: Monitors expiration every 30 seconds while running
-- **No Traces**: Removes all files including temporary batch scripts
 
 ## 📁 File Structure
 
@@ -95,7 +94,6 @@ QA_overlay/
 ├── QA_builder.py          # Main builder application
 ├── QA_standalone.py       # Template script (for reference)
 ├── requirements.txt       # Python dependencies
-├── run_builder.bat       # Windows launcher
 ├── image.ico             # Default icon
 └── README.md             # This file
 ```
